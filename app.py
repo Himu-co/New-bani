@@ -1,4 +1,9 @@
-import pyttsx3
+from gtts import gTTS
+import os
+def text_to_speech(text, lang="en"):
+    tts = gTTS(text=text, lang=lang, slow=False)
+    tts.save("output.mp3")
+    os.system("mpg123 output.mp3")  # Use 'afplay' on MacOS, or a similar player for Linux
 from tkinter import Tk, Label, Entry, Button, filedialog, StringVar, OptionMenu, Text
 from tkinter.scrolledtext import ScrolledText
 
