@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 import pyttsx3
 from tkinter import Tk, Label, Entry, Button, filedialog, StringVar, OptionMenu, Text
 from tkinter.scrolledtext import ScrolledText
@@ -89,7 +89,6 @@ status_label.pack(pady=10)
 
 # Run the GUI loop
 root.mainloop()
-=======
 import pyttsx3
 from tkinter import Tk, Label, Entry, Button, filedialog, StringVar, OptionMenu, Text
 from tkinter.scrolledtext import ScrolledText
@@ -180,4 +179,4 @@ status_label.pack(pady=10)
 
 # Run the GUI loop
 root.mainloop()
->>>>>>> 9c5275edcec582c6416a7560d5160e8a72ddaa7a
+9c5275edcec582c6416a7560d5160e8a72ddaa7a
